@@ -24,7 +24,7 @@ def CalculateFactorial(n):
     else:
         return n * CalculateFactorial(n - 1)
     
-def SolveQuadratic(a, b, c):
+def Quadratura(a, b, c):
     discriminant = b**2 - 4*a*c
     if discriminant < 0:
         return "Le radici sono complesse."
